@@ -1,5 +1,4 @@
-#小结
----
+# 小结
 time.strftime('%Y-%m-%d',time.localtime(time.time()))
 
 >%y 两位数的年份表示（00-99）  
