@@ -18,11 +18,16 @@ time.strftime('%Y-%m-%d',time.localtime(time.time()))
 >%S 秒（00-59） 
 
 ---
-# 文件操作
-    with open('file.txt','r') as f:
-      lines=f.read()
-    for line in lines:
-      line.rstrip()  
+# 文件操作  
+
+    with open('file.txt','r') as f:  
+    
+      lines=f.read()  
+      
+    for line in lines:  
+    
+      line.rstrip()    
+      
 ---  
 # python3 打包  
     pyinstaller -F C:\weather.py
