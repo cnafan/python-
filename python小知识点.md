@@ -20,7 +20,7 @@ time.strftime('%Y-%m-%d',time.localtime(time.time()))
 ---
 # 文件操作  
 
-    with open('file.txt','r') as f:  
+    with open('file.txt','r') as f:  
     
       lines=f.read()  
       
